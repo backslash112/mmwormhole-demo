@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '7.0'
+
+target 'MMWormhole-demo' do
+
+link_with 'MMWormhole-demo', 'MMWormhole-demo WatchKit Extension'
+
+pod 'MMWormhole', '~> 1.2.0'
+
+end
+
+target 'MMWormhole-demoTests' do
+
+end
+
